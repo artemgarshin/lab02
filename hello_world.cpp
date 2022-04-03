@@ -1,6 +1,8 @@
 #include<iostream>
-using namespace std;
+#include<string>
 int main(){
-	cout<<"hello world"<<endl;
+	string name;
+	std::cin >> name;
+	std::cout<<"hello world from "<<name<< endl;
 	return 0;
 }
